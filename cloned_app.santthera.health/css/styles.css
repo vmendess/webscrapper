@@ -1,0 +1,43 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: rgb(247, 247, 249); color: rgb(51, 51, 51); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+a { color: rgb(26, 115, 232); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.advertorial-bar { background-color: rgb(255, 0, 0); color: rgb(255, 255, 255); text-align: center; padding: 5px 0px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.sub-header { text-align: center; padding: 15px 0px 10px; font-size: 18px; color: rgb(102, 102, 102); font-style: italic; }
+.site-container { max-width: 1140px; margin: 0px auto; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 30px; padding: 40px 20px; min-height: 100vh; }
+.content-sections-wrap { background-color: rgb(247, 247, 249); border-radius: 12px; padding: 30px; margin-top: 30px; }
+h1.brand-name { font-size: 48px; font-weight: 900; text-align: center; margin-bottom: 20px; color: rgb(0, 0, 0); }
+.product-image-wrap { text-align: center; margin-bottom: 40px; }
+.product-image-wrap img { max-width: 100%; height: auto; max-height: 500px; }
+.disclaimer-box { background-color: rgb(255, 248, 230); border: 1px solid rgba(255, 193, 7, 0.2); padding: 20px; border-radius: 12px; margin-bottom: 30px; color: rgb(122, 90, 0); font-size: 15px; }
+.disclaimer-box strong { display: block; font-size: 20px; margin-bottom: 12px; color: rgb(0, 0, 0); }
+.science-header { text-align: center; margin-bottom: 40px; }
+.science-header h2 { font-size: 32px; font-weight: 800; margin-bottom: 15px; color: rgb(0, 0, 0); }
+.science-header p { color: rgb(102, 102, 102); font-size: 18px; max-width: 800px; margin: 0px auto; }
+.ev-card { background-color: rgb(255, 255, 255); border: 1px solid rgb(238, 242, 247); border-radius: 14px; padding: 25px; margin-bottom: 20px; box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px; }
+.card-title { display: flex; align-items: center; font-size: 22px; font-weight: 700; margin-bottom: 15px; color: rgb(0, 0, 0); }
+.ev-dot { width: 12px; height: 12px; background-color: rgb(99, 102, 241); border-radius: 50%; margin-right: 12px; }
+.card-content { font-size: 16px; color: rgb(68, 68, 68); }
+.card-content ul { list-style: none; }
+.card-content li { position: relative; padding-left: 20px; margin-bottom: 10px; }
+.card-content li::before { content: "•"; position: absolute; left: 0px; font-weight: bold; }
+.cta-wrap { text-align: center; margin: 50px 0px; }
+.btn-order-now { background-color: rgb(99, 102, 241); color: rgb(255, 255, 255); padding: 18px 60px; font-size: 24px; font-weight: 700; border-radius: 999px; display: inline-block; transition: 0.3s; box-shadow: rgba(99, 102, 241, 0.3) 0px 4px 15px; text-transform: uppercase; }
+.btn-order-now:hover { background-color: rgb(79, 70, 229); transform: translateY(-2px); box-shadow: rgba(99, 102, 241, 0.4) 0px 8px 25px; text-decoration: none; }
+.references-section { padding-top: 40px; border-top: 1px solid rgb(238, 238, 238); margin-bottom: 40px; }
+.references-section h4 { font-size: 18px; font-weight: 700; margin-bottom: 15px; }
+.references-list { list-style: decimal; padding-left: 20px; font-size: 14px; color: rgb(136, 136, 136); }
+.support-box { background-color: rgb(248, 250, 252); border: 1px solid rgb(226, 232, 240); border-radius: 12px; padding: 30px; text-align: center; margin-bottom: 40px; }
+.footer-black { background-color: rgb(0, 0, 0); color: rgb(153, 153, 153); padding: 60px 20px; text-align: center; }
+.footer-logo { margin-bottom: 30px; }
+.footer-logo img { height: 35px; opacity: 0.8; }
+.footer-links { margin-bottom: 30px; }
+.footer-links a { color: rgb(255, 255, 255); margin: 0px 15px; font-size: 14px; display: inline-block; }
+.footer-disclaimer { font-size: 12px; line-height: 1.8; max-width: 800px; margin: 0px auto; }
+@media (max-width: 768px) {
+  h1.brand-name { font-size: 32px; }
+  .science-header h2 { font-size: 24px; }
+  .btn-order-now { font-size: 18px; padding: 15px 40px; }
+  .site-container { padding: 20px 10px; }
+  .content-sections-wrap { padding: 15px; }
+}
